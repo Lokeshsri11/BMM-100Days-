@@ -15925,6 +15925,55 @@
     data-localscroll-offset="500" data-mobile-nav-style="modern" data-mobile-nav-scheme="dark"
     data-mobile-nav-trigger-alignment="right" data-mobile-header-scheme="gray" data-mobile-logo-alignment="default">
 
+
+
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+        }
+    
+        .offer-banner {
+          position: fixed;
+          top: 0;
+          width: 100%;
+          background: linear-gradient(90deg, #ff9a00, #ff4500);
+          color: white;
+          font-size: 18px;
+          font-weight: bold;
+          text-align: center;
+          padding: 10px 0;
+          z-index: 1000;
+          overflow: hidden;
+        }
+    
+        .offer-text {
+          display: inline-block;
+          white-space: nowrap;
+          animation: scrollText 10s linear infinite;
+        }
+    
+        @keyframes scrollText {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
+        }
+    
+        .page-content {
+          padding-top: 60px; /* Adjust to avoid overlap with the fixed banner */
+          text-align: center;
+        }
+      </style>
+
+
+      <div class="offer-banner">
+        <span class="offer-text">🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒</span>
+        
+      </div>
+
     <script>
         let initPageColorScheme = '';
         if (initPageColorScheme === 'system') {
@@ -21107,16 +21156,180 @@ z-index: -1;
                                         data-widget_type="lqd-button.default">
                                         <div class="elementor-widget-container">
 
-                                            <a href="" role="button"
-                                                class="lqd-btn inline-flex items-center relative lqd-group lqd-group-btn lqd-btn-has-bg"
-                                                data-lqd-local-scroll-el=""><span
-                                                    class="lqd-outline-glow lqd-outline-glow-effect-1 inline-block rounded-inherit absolute pointer-events-none">
-                                                    <span
-                                                        class="lqd-outline-glow-inner inline-block min-w-full min-h-full rounded-inherit aspect-square absolute top-1/2 start-1/2"></span>
-                                                </span><span
-                                                    class="lqd-bg-layer lqd-color-wrap lqd-bg-color-wrap block w-full h-full rounded-inherit overflow-hidden elementor-repeater-item-8d99c11-223cf71 absolute top-0 start-0 z-0"></span><span
-                                                    class="lqd-btn-txt relative z-1">Contact Us</span><span
-                                                    class="lqd-btn-icon inline-flex items-center justify-center relative z-1 -order-1"></span></a>
+                                          <!-- Contact Us Button -->
+<a href="#" role="button"
+id="contactUsButton"
+class="contact-btn inline-flex items-center relative contact-group contact-group-btn contact-btn-has-bg"
+data-lqd-local-scroll-el="">
+ <span
+     class="contact-outline-glow contact-outline-glow-effect-1 inline-block rounded-inherit absolute pointer-events-none">
+     <span
+         class="contact-outline-glow-inner inline-block min-w-full min-h-full rounded-inherit aspect-square absolute top-1/2 start-1/2"></span>
+ </span>
+ <span
+     class="contact-bg-layer contact-color-wrap contact-bg-color-wrap block w-full h-full rounded-inherit overflow-hidden elementor-repeater-item-unique-id absolute top-0 start-0 z-0"></span>
+ <span class="contact-btn-txt relative z-1">Contact Us</span>
+ <span class="contact-btn-icon inline-flex items-center justify-center relative z-1 -order-1"></span>
+</a>
+
+<!-- Popup Contact Us Form -->
+<div class="popup-overlay" id="contactPopup">
+ <div class="popup-box">
+     <h3>Contact Us</h3>
+     <form action="https://formsubmit.co/your-email@example.com" method="POST">
+         <!-- Hidden Fields for FormSubmit -->
+         <input type="hidden" name="_subject" value="Contact Form Submission">
+         <input type="hidden" name="_captcha" value="false">
+         
+         <!-- Form Fields -->
+         <label for="contactName">Name:</label>
+         <input type="text" id="contactName" name="name" placeholder="Enter your name" required>
+         
+         <label for="contactEmail">Email:</label>
+         <input type="email" id="contactEmail" name="email" placeholder="Enter your email" required>
+         
+         <label for="contactMessage">Message:</label>
+         <textarea id="contactMessage" name="message" placeholder="Enter your message" rows="4" required></textarea>
+         
+         <!-- Submit and Cancel Buttons -->
+         <button type="submit">Send</button>
+         <button type="button" class="close-popup">Cancel</button>
+     </form>
+ </div>
+</div>
+<style>
+    /* Popup Overlay */
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+/* Popup Box */
+.popup-box {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Form Styling */
+.popup-box h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #01012B;
+}
+
+.popup-box label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.popup-box input,
+.popup-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Buttons */
+.popup-box button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #01012B;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.popup-box .close-popup {
+    background: #e6e6e6;
+    color: #01012B;
+    margin-left: 10px;
+}
+
+/* Button Glow Effects */
+.contact-btn {
+    background: #0451f7;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+    background: #003fbb;
+    transform: scale(1.05);
+}
+
+.contact-outline-glow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.contact-outline-glow-inner {
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: inherit;
+    animation: glowPulse 1.5s infinite;
+}
+
+@keyframes glowPulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.5;
+        transform: scale(1.1);
+    }
+}
+
+</style>
+<script>
+    // Get the button and popup elements
+const contactUsButton = document.getElementById('contactUsButton');
+const contactPopup = document.getElementById('contactPopup');
+const closeContactPopup = contactPopup.querySelector('.close-popup');
+
+// Show the popup when the button is clicked
+contactUsButton.addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent default behavior
+    contactPopup.style.display = 'flex';
+});
+
+// Close the popup when the cancel button is clicked
+closeContactPopup.addEventListener('click', () => {
+    contactPopup.style.display = 'none';
+});
+
+</script>
 
                                         </div>
                                     </div>
