@@ -15867,9 +15867,11 @@
     <!-- End Google Tag Manager -->
 
     <link rel="shortcut icon"
-        href="/img/logo.png" />
+        href="/img/whitelogo.png" />
 
-
+<style>
+    .shortcut
+</style>
     <script>
         window.liquid = {
             "app": null,
@@ -15920,6 +15922,16 @@
 
 </head>
 
+
+<style>
+
+
+
+</style>
+
+
+
+<!-- <section class="wpbg"> -->
 <body
     class="page-template-default page page-id-8304 wp-embed-responsive sidebar-widgets-outline elementor-default elementor-kit-758 elementor-page elementor-page-8304"
     dir="ltr" itemscope="itemscope" itemtype="http://schema.org/WebPage" data-mobile-nav-breakpoint="1200"
@@ -15933,7 +15945,7 @@
           margin: 0;
           font-family: Arial, sans-serif;
         }
-    
+      
         .offer-banner {
           position: fixed;
           top: 0;
@@ -15945,36 +15957,61 @@
           text-align: center;
           padding: 10px 0;
           z-index: 1000;
-          overflow: hidden;
+          overflow: hidden; /* Hide overflow outside the container */
         }
-    
-        .offer-text {
-          display: inline-block;
+      
+        .scrolling-wrapper {
+          display: flex;
           white-space: nowrap;
-          animation: scrollText 10s linear infinite;
+          animation: scrollText 10s linear infinite; /* Seamless scrolling animation */
         }
-    
+      
+        .offer-text {
+          padding-right: 50px; /* Small spacing between duplicated text */
+        }
+      
         @keyframes scrollText {
           0% {
-            transform: translateX(100%);
+            transform: translateX(0); /* Start position */
           }
           100% {
-            transform: translateX(-100%);
+            transform: translateX(-100%); /* End position, where text exits the screen */
           }
         }
-    
-        .page-content {
-          padding-top: 60px; /* Adjust to avoid overlap with the fixed banner */
-          text-align: center;
-        }
       </style>
-
-
+      
       <div class="offer-banner">
-        <span class="offer-text">🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒</span>
-        
+        <div class="scrolling-wrapper">
+          <span class="offer-text">
+            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+          </span>
+          <span class="offer-text">
+            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+          </span>
+          <span class="offer-text">
+            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+          </span>
+          <span class="offer-text">
+            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+          </span>
+          <span class="offer-text">
+            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+          </span>
+          <span class="offer-text">
+            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+          </span>
+          <span class="offer-text">
+            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+          </span>
+          <span class="offer-text">
+            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+          </span>
+          <span class="offer-text">
+            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+          </span>
+        </div>
       </div>
-
+      
     <script>
         let initPageColorScheme = '';
         if (initPageColorScheme === 'system') {
@@ -16023,7 +16060,7 @@
         </ul>
     </div> -->
     <div class="top-left-logo">
-        <a href="https://yourcompanywebsite.com">
+        <a href="">
             <img src="/img/logo.png" alt="Company Logo" class="company-logo">
         </a>
     </div>
@@ -16032,13 +16069,13 @@
         /* Position the logo in the top-left corner */
 .top-left-logo {
     position: absolute;
-    top: 10px;
+    top: 40px;
     left: 10px;
     z-index: 1000; /* Ensure it stays on top */
 }
 
 .company-logo {
-    width: 100px; /* Adjust the size of the logo */
+    width: 90px; /* Adjust the size of the logo */
     height: auto;
     display: block;
 }
@@ -16051,7 +16088,7 @@
 
     @media screen and (max-width: 480px) {
         .company-logo {
-            width: 30px; /* Further adjust for very small screens */
+            width: 35px; /* Further adjust for very small screens */
         }
     }
 
@@ -16334,7 +16371,9 @@
                                         <style>
                                             .moving-object img {
     position: relative; /* Allows for relative positioning */
-    left: 40px; /* Moves the image 20px to the right */
+    left: 90px; /* Moves the image 20px to the right */
+    width: 80%;
+    height: auto;
     /* Alternatively, use margin if you want to create spacing */
     /* margin-left: 20px; */
 }
@@ -16990,6 +17029,7 @@
 
 
 </script>
+
                         <!-- <div class="elementor-element elementor-element-e234c40 e-flex e-con-boxed e-con e-parent"
                             data-id="e234c40" data-element_type="container"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -17237,6 +17277,8 @@
                                 </div>
                             </div>
                         </div> -->
+
+                 
                         <div class="elementor-element elementor-element-30c0b9e elementor-hidden-mobile e-flex e-con-boxed e-con e-parent"
                             data-id="30c0b9e" data-element_type="container"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -17576,6 +17618,9 @@
                                         </div>
                                         
                                     </div>              </div>
+
+
+                                </section>
                                 <div class="elementor-element elementor-element-fe65bb4 e-flex e-con-boxed e-con e-child"
                                 data-id="fe65bb4" data-element_type="container">
                                 <div class="e-con-inner">
@@ -17600,11 +17645,12 @@
                                     </div>
                                 </div>
                             </div>
+                            
                             </div>
                         </div>
 
 
-
+                 
 
 
 
@@ -17619,7 +17665,7 @@
                             <div class="section">
                                 <div class="section-content">
                                     <div class="icon">
-                                        <img src="/img/energy-shape.png" alt="Industry-leading strategies" />
+                                        <img src="/img/mike-shape.png" alt="Industry-leading strategies" />
                                     </div>
                                     <div class="text">
                                         <h3>Industry-leading strategies</h3>
@@ -17645,7 +17691,7 @@
                             <div class="section">
                                 <div class="section-content">
                                     <div class="icon">
-                                        <img src="/img/energy-shape.png" alt="End-to-End Services" />
+                                        <img src="/img/mike-shape.png" alt="End-to-End Services" />
                                     </div>
                                     <div class="text">
                                         <h3>End-to-End Services</h3>
@@ -17671,7 +17717,7 @@
                             <div class="section">
                                 <div class="section-content">
                                     <div class="icon">
-                                        <img src="/img/energy-shape.png" alt="Limited Availability" />
+                                        <img src="/img/mike-shape.png" alt="Limited Availability" />
                                     </div>
                                     <div class="text">
                                         <h3>Limited Availability</h3>
@@ -17682,7 +17728,114 @@
                         
                             <!-- Contact Us Button -->
                             <div class="contact-button">
-                                <a href="#" id="contactButton2" class="btn">Contact Us</a>
+                               <!-- Button that triggers the popup form -->
+<a href="#" id="contactButton2" class="btn">Contact Us</a>
+
+<!-- Popup form -->
+<div class="popup-overlay" id="contactPopup2">
+    <div class="popup-box">
+        <h3>Contact Us </h3>
+        <form action="https://formsubmit.co/2156446b385ed5565413cf8f32b9cc9b" method="POST">
+            <input type="hidden" name="_subject" value="Contact Form 2 Submission">
+            <input type="hidden" name="_captcha" value="false">
+            <label for="contactName2">Name:</label>
+            <input type="text" id="contactName2" name="name" placeholder="Enter your name" required>
+            <label for="contactEmail2">Email:</label>
+            <input type="email" id="contactEmail2" name="email" placeholder="Enter your email" required>
+            <label for="contactMessage2">Message:</label>
+            <textarea id="contactMessage2" name="message" placeholder="Enter your message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+            <button type="button" class="close-popup">Cancel</button>
+        </form>
+    </div>
+</div>
+
+<!-- Script to handle popup display -->
+<script>
+    const contactButton2 = document.getElementById('contactButton2'); // The button to open the popup
+    const contactPopup2 = document.getElementById('contactPopup2'); // The popup container
+    const closeContactPopup2 = contactPopup2.querySelector('.close-popup'); // The close button in the popup
+
+    // Show the popup when the Contact Us button is clicked
+    contactButton2.addEventListener('click', (e) => {
+        e.preventDefault();  // Prevent default behavior (if any)
+        contactPopup2.style.display = 'flex';  // Show the popup
+    });
+
+    // Close the popup when the Cancel button is clicked
+    closeContactPopup2.addEventListener('click', () => {
+        contactPopup2.style.display = 'none';  // Hide the popup
+    });
+</script>
+
+<!-- CSS Styles for the popup -->
+<style>
+    /* Overlay and popup styles */
+    .popup-overlay {
+        display: none; /* Hidden by default */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .popup-box {
+        background: white;
+        padding: 30px;
+        border-radius: 8px;
+        width: 400px;
+        max-width: 90%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .popup-box h3 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .popup-box label {
+        display: block;
+        margin: 8px 0 5px;
+        font-weight: bold;
+    }
+
+    .popup-box input, .popup-box textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .popup-box button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #0451f7;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    .popup-box button:hover {
+        background-color: #033aaf;
+    }
+
+    .popup-box .close-popup {
+        background-color: #f44336;
+        margin-left: 10px;
+    }
+
+    .popup-box .close-popup:hover {
+        background-color: #e53935;
+    }
+</style>
+
                             </div>
                             <!-- <div class="popup-overlay" id="contactPopup2">
                                 <div class="popup-box">
@@ -17729,7 +17882,7 @@
                                 max-width: 1000px;
                                 margin: 0 auto;
                                 padding: 20px;
-                                background-image: url('/img/hero-img.png'); /* Watermelon background image */
+                                /* background-image: url('/img/hero-img.png');  */
                                 background-size: 300px;
                                 /* background-size: cover; */
                                 background-position: center;
@@ -17743,7 +17896,7 @@
                                 align-items: center;
                                 margin-bottom: 30px;
                                 padding: 30px;
-                                background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+                                background-color: rgba(151, 175, 235, 0.3); /* Semi-transparent background */
                                 border-radius: 8px;
                                 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
                                 transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for zoom and bg change */
@@ -17785,21 +17938,11 @@
                                 font-weight: bold;
                                 color: #4562a6; /* Blue melon color for consistency */
                                 margin-bottom: 40px;
-                                letter-spacing: 1px;
-                                text-transform: uppercase;
+                                letter-spacing: 2px;
+                                /* text-transform: uppercase; */
                                 position: relative;
                             }
-                        
-                            .why-choose-heading::after {
-                                content: '';
-                                position: absolute;
-                                bottom: -10px;
-                                left: 50%;
-                                transform: translateX(-50%);
-                                width: 60px;
-                                height: 3px;
-                                background-color: #97afeb; /* Blue melon color for the underline */
-                            }
+                    
                         
                             /* Contact Us Button */
                             .contact-button {
@@ -17988,7 +18131,7 @@ text-align: center;
 font-size: 34px;
 font-weight: bold;
 margin-bottom: 20px;
-color: #4562a6;
+color: white;
 }
 
 /* Logo Slider */
@@ -18042,296 +18185,295 @@ width: 120px;
 
 
 
-                      <div>
 
-                        <h2 class="why-choose-heading">How We Work</h2>
-                       
-                        <body>
-                            <div class='progress-wrapper'>
-                              <div class='containers'>
-                                <div class='progress-container'>
-                                  <div class='progress-bar' id='progress'></div>
-                                  <div class='circle active'>1</div>
-                                  <div class='circle'>2</div>
-                                  <div class='circle'>3</div>
-                                  <div class='circle'>4</div>
-                                </div>
-                          
-                                <div id="step1" class="step-content active">
-                                  <h2>Discovery Call</h2>
-                                  <p>We take the time to understand your business goals and challenges.</p>
-                                </div>
-                                <div id="step2" class="step-content">
-                                  <h2>Research & Strategy</h2>
-                                  <p>We conduct in-depth market research and craft a tailored strategy for your business.</p>
-                                </div>
-                                <div id="step3" class="step-content">
-                                  <h2>Execution</h2>
-                                  <p>We implement the strategy with precision and dedication to deliver results.</p>
-                                </div>
-                                <div id="step4" class="step-content">
-                                  <h2>Optimization</h2>
-                                  <p>We continuously monitor and optimize to ensure the best possible outcome.</p>
-                                </div>
-                          
-                                <div class="buttons">
-                                  <button class='btn' id='prev' disabled>Prev</button>
-                                  <button class='btn' id='next'>Next</button>
-                                </div>
-                              </div>
-                            </div>
-                          </body>
-                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="why-choose-heading">How We Work</h2>
+
+
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-  :root{
-    --line-border-fill: #4562a6;
-    --line-border-empty: #8f9bd5;
-  }
-
-  body{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: white; /* White background for the page */
-  }
-
-  .progress-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    width: 100%;
-  }
-
-  .containers {
-    width: 100%;
-    max-width: 1200px; /* Increased max-width for larger screens */
-    text-align: center;
-    padding: 40px;
-  }
-
-  .progress-container {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    margin-bottom: 3em;
-  }
-
-  .progress-container::before {
-    content: '';
-    background-color: var(--line-border-empty);
-    height: 6px; /* Increased line height */
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    z-index: -1;
-  }
-
-  .progress-bar {
-    background-color: var(--line-border-fill);
-    height: 6px; /* Increased progress bar height */
-    width: 0%;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    z-index: -1;
-    transition: .4s ease;
-  }
-
-  .circle {
-    height: 50px; /* Increased circle size */
-    width: 50px;  /* Increased circle size */
-    border-radius: 50%;
-    background-color: #97afeb;
-    color: #190482;
-    font-size: 24px; /* Increased font size */
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 4px solid var(--line-border-empty);
-    transition: .4s ease;
-  }
-
-  .circle.active {
-    border: 4px solid var(--line-border-fill);
-    background-color: var(--line-border-fill);
-    color: white;
-  }
-
-  .step-content {
-    display: none;
-    margin-bottom: 30px;
-  }
-
-  .step-content.active {
-    display: block;
-  }
-
-  .step-content h2 {
-    font-size: 38px; /* Increased heading size */
-    margin-bottom: 15px;
-    color: #333; /* Dark color for better readability */
-  }
-
-  .step-content p {
-    font-size: 28px; /* Increased paragraph size */
-    color: #555; /* Slightly darker text for contrast */
-  }
-
-  .buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-  }
-
-  .btn {
-    background-color: var(--line-border-fill);
-    color: #fff;
-    border: none;
-    font-family: inherit;
-    font-weight: bold;
-    padding: 1em 3em; /* Larger padding for buttons */
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0 15px;
-    transition: 0.3s ease;
-    font-size: 18px; /* Larger text on buttons */
-  }
-
-  .btn:hover {
-    background-color: #5f42cb;
-  }
-
-  .btn:active {
-    transform: scale(0.97);
-  }
-
-  .btn:disabled {
-    background-color: var(--line-border-empty);
-    cursor: not-allowed;
-  }
-
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .containers {
-      padding: 20px;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    .circle {
-      height: 40px;
-      width: 40px;
-      font-size: 18px;
+
+    .heading {
+      font-size: 36px;
+      font-weight: bold;
+      color: #0a3cff;
+      margin-bottom: 40px;
+      text-align: center;
     }
 
-    .step-content h2 {
+    .roadmap-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      max-width: 1900px;
+      flex-wrap: wrap;
+      padding: 80 40px;
+      width: 100%;
+    }
+
+    .card {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      min-width: 200px; /* Minimum width of card */
+      max-width: 300px; /* Maximum width of card */
+      border-radius: 24px;
+      line-height: 1.6;
+      transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 44px;
+      padding: 36px;
+      border-radius: 22px;
+      color: #ffffff;
+      overflow: hidden;
+      background: #6984c9;
+      transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .content::before {
+      position: absolute;
+      content: "";
+      top: -4%;
+      left: 50%;
+      width: 90%;
+      height: 90%;
+      transform: translate(-50%);
+      background: #ced8ff;
+      z-index: -1;
+      transform-origin: bottom;
+      border-radius: inherit;
+      transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .content::after {
+      position: absolute;
+      content: "";
+      top: -8%;
+      left: 50%;
+      width: 80%;
+      height: 80%;
+      transform: translate(-50%);
+      background: #e7ecff;
+      z-index: -2;
+      transform-origin: bottom;
+      border-radius: inherit;
+      transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .content svg {
+      width: 48px;
+      height: 48px;
+    }
+
+    .content .heading {
       font-size: 24px;
+      font-weight: bold;
+      color: #fff;
     }
 
-    .step-content p {
-      font-size: 16px;
+    .content .para {
+      z-index: 1;
+      opacity: 1;
+      font-size: 18px;
+      transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
     }
 
-    .btn {
-      padding: 0.8em 2em;
+    .content .link {
+      z-index: 1;
+      color: #fea000;
+      text-decoration: none;
+      font-family: inherit;
       font-size: 16px;
+      transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
     }
+
+    .content .link:hover {
+      text-decoration: underline;
+    }
+
+    .card:hover {
+      transform: translate(0px, -16px);
+    }
+
+    .card:hover .content::before {
+      rotate: -8deg;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .card:hover .content::after {
+      rotate: 8deg;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+
+     /* Dotted line connecting the cards */
+  /* .roadmap-container::before {
+    content: "";
+    position: absolute;
+    top: 95%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: transparent;
+    border-top: 2px dashed black;
+    animation: moveLine 20s linear infinite;
   }
 
-  @media (max-width: 480px) {
-    .containers {
-      padding: 10px;
+  @keyframes moveLine {
+    0% {
+      width: 0;
     }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 0;
+    }
+  } */
 
-    .circle {
-      height: 35px;
-      width: 35px;
-      font-size: 16px;
-    }
+    /* Media Query for Smaller Screens */
+    @media (max-width: 768px) {
+      .card {
+        max-width: 80%;
+        margin-bottom: 20px;
+      }
 
-    .step-content h2 {
-      font-size: 20px;
+      .roadmap-container {
+        flex-direction: column;
+        align-items: center;
+      }
     }
+  </style>
+</head>
+<body>
 
-    .step-content p {
-      font-size: 14px;
-    }
 
-    .btn {
-      padding: 0.6em 1.5em;
-      font-size: 14px;
-    }
-  }
-</style>
+  <div class="roadmap-container">
+    <!-- Card 1: Discovery -->
+    <div class="card">
+      <div class="content">
+        <div class="heading">1. Discovery Call
      
+        <p class="para">Understanding your business goals and challenges.</p>
+        </div>
+      </div>
+    </div>
 
-<script>
-    const progress = document.getElementById('progress');
-const prev = document.getElementById('prev');
-const next = document.getElementById('next');
-const circles = document.querySelectorAll('.circle');
-const steps = document.querySelectorAll('.step-content');
+    <!-- Card 2: Call -->
+    <div class="card">
+      <div class="content">
+        <div class="heading">2. Market Research
+        <!-- <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 9V5H4V9H20ZM20 11H4V19H20V11ZM3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM5 12H8V17H5V12ZM5 6H7V8H5V6ZM9 6H11V8H9V6Z"></path>
+        </svg> -->
+        <p class="para">We dig deep into your industry to craft the perfect strategy.</p>
+        </div>
+      </div>
+    </div>
 
-let currentActive = 1;
+    <!-- Card 3: Research -->
+    <div class="card">
+      <div class="content">
+        <div class="heading">3. 100-Day Action Plan:
+    
+        <!-- <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 9V5H4V9H20ZM20 11H4V19H20V11ZM3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM5 12H8V17H5V12ZM5 6H7V8H5V6ZM9 6H11V8H9V6Z"></path>
+        </svg> -->
+        <p class="para">A step-by-step roadmap to success.</p>
+    </div>
+      </div>
+    </div>
 
-next.addEventListener('click', () => {
-  currentActive++;
-  if (currentActive > circles.length) {
-    currentActive = circles.length;
-  }
-
-  update();
-});
-
-prev.addEventListener('click', () => {
-  currentActive--;
-  if (currentActive < 1) {
-    currentActive = 1;
-  }
-
-  update();
-});
-
-function update() {
-  circles.forEach((circle, i) => {
-    if (i < currentActive) {
-      circle.classList.add('active');
-    } else {
-      circle.classList.remove('active');
-    }
-  });
-
-  const actives = document.querySelectorAll('.active');
+    <!-- Card 4: Strategy -->
+    <div class="card">
+      <div class="content">
+        <div class="heading">4. Execution:
+        <!-- <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 9V5H4V9H20ZM20 11H4V19H20V11ZM3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM5 12H8V17H5V12ZM5 6H7V8H5V6ZM9 6H11V8H9V6Z"></path>
+        </svg> -->
+        <p class="para">Flawless implementation of strategies.</p>
+    </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="content">
+          <div class="heading">5. See the Results:
+    
+          <!-- <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 9V5H4V9H20ZM20 11H4V19H20V11ZM3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM5 12H8V17H5V12ZM5 6H7V8H5V6ZM9 6H11V8H9V6Z"></path>
+          </svg> -->
+          <p class="para">Watch your business transform within 100 days.</p>
+        </div>
+        </div>
+      </div>
+  </div>
   
-  // Update progress bar
-  progress.style.width = ((actives.length - 1) / (circles.length - 1)) * 100 + '%';
 
-  // Show or hide step content based on active step
-  steps.forEach((step, i) => {
-    if (i + 1 === currentActive) {
-      step.classList.add('active');
-    } else {
-      step.classList.remove('active');
-    }
-  });
+</body>
 
-  // Disable/enable buttons
-  if (currentActive === 1) {
-    prev.disabled = true;
-  } else if (currentActive === circles.length) {
-    next.disabled = true;
-  } else {
-    prev.disabled = false;
-    next.disabled = false;
-  }
-}
 
-</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -18356,7 +18498,7 @@ footer {
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
   font-weight: bold;
-  color: #4562a6; /* Main text color */
+  color: black; /* Main text color */
   background-color: #97afeb; /* Background color */
   padding: 12px;
   border-radius: 5px; /* Rounded corners */
@@ -18380,6 +18522,28 @@ footer {
   </style>
 
                                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -18519,7 +18683,114 @@ footer {
     </div>
     
     <!-- Contact Us Button -->
-    <button class="cta-button" onclick="window.location.href='contact.html'">Contact Us</button>
+   <!-- Button that triggers the popup form -->
+<button class="cta-button" id="contactButton1">Contact Us</button>
+
+<!-- Popup form -->
+<div class="popup-overlay" id="contactPopup1">
+    <div class="popup-box">
+        <h3>Contact Us </h3>
+        <form action="https://formsubmit.co/2156446b385ed5565413cf8f32b9cc9b" method="POST">
+            <input type="hidden" name="_subject" value="Contact Form 1 Submission">
+            <input type="hidden" name="_captcha" value="false">
+            <label for="contactName1">Name:</label>
+            <input type="text" id="contactName1" name="name" placeholder="Enter your name" required>
+            <label for="contactEmail1">Email:</label>
+            <input type="email" id="contactEmail1" name="email" placeholder="Enter your email" required>
+            <label for="contactMessage1">Message:</label>
+            <textarea id="contactMessage1" name="message" placeholder="Enter your message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+            <button type="button" class="close-popup">Cancel</button>
+        </form>
+    </div>
+</div>
+
+<!-- Script to handle popup display -->
+<script>
+    const contactButton1 = document.getElementById('contactButton1'); // The button to open the popup
+    const contactPopup1 = document.getElementById('contactPopup1'); // The popup container
+    const closeContactPopup1 = contactPopup1.querySelector('.close-popup'); // The close button in the popup
+
+    // Show the popup when the Contact Us button is clicked
+    contactButton1.addEventListener('click', (e) => {
+        e.preventDefault();  // Prevent default behavior (if any)
+        contactPopup1.style.display = 'flex';  // Show the popup
+    });
+
+    // Close the popup when the Cancel button is clicked
+    closeContactPopup1.addEventListener('click', () => {
+        contactPopup1.style.display = 'none';  // Hide the popup
+    });
+</script>
+
+<!-- CSS Styles for the popup -->
+<style>
+    /* Overlay and popup styles */
+    .popup-overlay {
+        display: none; /* Hidden by default */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .popup-box {
+        background: white;
+        padding: 30px;
+        border-radius: 8px;
+        width: 400px;
+        max-width: 90%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .popup-box h3 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .popup-box label {
+        display: block;
+        margin: 8px 0 5px;
+        font-weight: bold;
+    }
+
+    .popup-box input, .popup-box textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .popup-box button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #0451f7;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    .popup-box button:hover {
+        background-color: #033aaf;
+    }
+
+    .popup-box .close-popup {
+        background-color: #f44336;
+        margin-left: 10px;
+    }
+
+    .popup-box .close-popup:hover {
+        background-color: #e53935;
+    }
+</style>
+
   </div>
 
 
