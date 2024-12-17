@@ -659,7 +659,7 @@
             }
 
             .elementor-kit-758 h2 {
-                font-size: 48px;
+                font-size: 38px;
                 line-height: 1em;
             }
 
@@ -776,7 +776,7 @@
 
         .elementor-8304 .elementor-element.elementor-element-3c44fee {
             --display: flex;
-            --flex-direction: row;
+            /* --flex-direction: row; */
             --container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
             --container-widget-height: 100%;
             --container-widget-flex-grow: 1;
@@ -2328,8 +2328,8 @@
         }
 
         .elementor-8304 .elementor-element.elementor-element-238014a .elementor-heading-title {
-            color: #00000075;
-            font-size: 30px;
+            /* color: #00000075; */
+            font-size: 35px;
             font-weight: 1000;
             line-height: 1.2em;
             letter-spacing: 0.1px;
@@ -15925,13 +15925,15 @@
 
 <style>
 
-
+.wpbg {
+    background: url(/img/BMM\ Web\ BG.png);
+}
 
 </style>
 
 
 
-<!-- <section class="wpbg"> -->
+<section class="wpbg">
 <body
     class="page-template-default page page-id-8304 wp-embed-responsive sidebar-widgets-outline elementor-default elementor-kit-758 elementor-page elementor-page-8304"
     dir="ltr" itemscope="itemscope" itemtype="http://schema.org/WebPage" data-mobile-nav-breakpoint="1200"
@@ -15983,32 +15985,31 @@
       <div class="offer-banner">
         <div class="scrolling-wrapper">
           <span class="offer-text">
-            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+            #100 Days challenge starting at just ₹549/day
           </span>
           <span class="offer-text">
-            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+            #100 Days challenge starting at just ₹549/day
           </span>
           <span class="offer-text">
-            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+            #100 Days challenge starting at just ₹549/day
           </span>
           <span class="offer-text">
-            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+            #100 Days challenge starting at just ₹549/day
           </span>
           <span class="offer-text">
-            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+            #100 Days challenge starting at just ₹549/day
           </span>
           <span class="offer-text">
-            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+            #100 Days challenge starting at just ₹549/day
           </span>
           <span class="offer-text">
-            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+            #100 Days challenge starting at just ₹549/day
           </span>
           <span class="offer-text">
-            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
+            #100 Days challenge starting at just ₹549/day
           </span>
-          <span class="offer-text">
-            🚀 Launched #100 Days Plan starting at just ₹549/day! 🚀 Don't miss out! 🛒
-          </span>
+       
+       
         </div>
       </div>
       
@@ -16061,7 +16062,7 @@
     </div> -->
     <div class="top-left-logo">
         <a href="">
-            <img src="/img/logo.png" alt="Company Logo" class="company-logo">
+            <img src="/img/whitelogo.png" alt="Company Logo" class="company-logo">
         </a>
     </div>
 
@@ -16093,6 +16094,9 @@
     }
 
     </style>
+
+    <br>
+    <br>
     <div id="lqd-wrap" class="relative overflow-hidden">
 
 
@@ -16129,10 +16133,13 @@
                                    </div>
 <style>
 .lqd-text-el {
-    white-space: nowrap; /* Prevents text wrapping */
-    text-align: center; /* Align text to center */
-    font-size: 2rem; /* Adjust font size as needed */
-    line-height: 1.5; /* Proper spacing between lines */
+    white-space: nowrap;
+    text-align: left; /* Aligns the text to the left by default */
+    padding-left: 200px; /* Adds space to shift text to the right */
+    font-size: 2rem;
+    line-height: 1.5;
+    margin: 0;
+    display: block;
 }
 
 .lqd-text-item {
@@ -16156,7 +16163,114 @@
         font-size: 1.2rem; /* Adjusts font size of individual text items */
     }
 }
-</style>                                   
+
+</style>                
+
+<!-- <div class="parent-container"> -->
+<div class="horizontal-highlight">
+    <!-- Left Content: 2x (Revenue) -->
+    <div class="highlight-left">
+        <h11 class="highlight-text">
+            2x 
+            <span class="sub-text">(Revenue)</span>
+        </h11>
+    </div>
+
+    <!-- Right Content: Price -->
+    <div class="highlight-right">
+        <p class="starting-at">Starting at just</p>
+        <p class="price">₹549/-* <span class="per-day">per day</span></p>
+    </div>
+</div>
+
+<!-- </div> -->
+
+<style>
+/* Main Container */
+
+.horizontal-highlight {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Space between items */
+    background: #f9f9f9; 
+    padding: 20px 50px;
+    border: 3px solid #6984c9; 
+    border-radius: 10px;
+    box-shadow: #6984c9;
+    max-width: 500px;
+    max-height: 150px;
+    margin: 0 auto; 
+}
+
+/* Left Content */
+.highlight-left {
+    text-align: center;
+    flex: 1; /* Takes available space */
+}
+
+.highlight-text {
+    font-size: 3rem; 
+    font-weight: bold;
+    color: #4562a6; 
+    /* bottom: 200px; */
+    margin: 0;
+}
+
+.sub-text {
+    font-size: 1.5rem;
+    color: black; 
+    margin-top: 5px;
+    margin-top: 10%;
+}
+
+/* Right Content */
+.highlight-right {
+    text-align: center;
+    flex: 1; 
+    margin-left: 50px; /* Shifts the right side content to the right */
+}
+
+.starting-at {
+    font-size: 1.2rem;
+    color: black;
+    margin: 0;
+    font-weight: 500;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4562a6; 
+    margin: 5px 0 0 0;
+}
+
+.per-day {
+    font-size: 1rem;
+    color: black; 
+    display: block;
+    margin-top: 5px;
+}
+
+/* Responsive for Smaller Screens */
+@media (max-width: 768px) {
+    .horizontal-highlight {
+        flex-direction: column; /* Stack vertically on smaller screens */
+        gap: 15px;
+    }
+    .highlight-right {
+        margin-left: 0; /* Remove margin for smaller screens */
+    }
+    .highlight-text {
+        font-size: 2.5rem;
+    }
+}
+</style>
+
+
+
+
+
+
                                         <div class="elementor-element elementor-element-a09188d lqd-text-tag-h1 elementor-widget__width-initial elementor-widget elementor-widget-lqd-text"
                                             data-id="a09188d" data-element_type="widget"
                                             data-widget_type="lqd-text.default">
@@ -16227,47 +16341,7 @@
                                                 </div>
                                             </div> -->
                                         </div>
-                                        <div class="elementor-element elementor-element-f993ae1 e-con-full e-flex e-con e-child"
-                                            data-id="f993ae1" data-element_type="container">
-                                            <div class="elementor-element elementor-element-91f8f99 e-con-full e-flex e-con e-child"
-                                                data-id="91f8f99" data-element_type="container">
-                                                <div class="elementor-element elementor-element-5127467 elementor-align-left elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                    data-id="5127467" data-element_type="widget"
-                                                    data-widget_type="icon-list.default">
-                                                    <div class="elementor-widget-container">
-                                                        <ul class="elementor-icon-list-items elementor-inline-items">
-                                                            <li class="elementor-icon-list-item elementor-inline-item">
-                                                                <span class="elementor-icon-list-icon">
-                                                                
-                                                                </span>
-                                                                <span class="elementor-icon-list-text">Transform your business in just 100 days with our newly launched   #100 Days Plan starting at just ₹549/day!
-                                                                </span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <!-- <div class="elementor-element elementor-element-39ff80c elementor-align-left elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                    data-id="39ff80c" data-element_type="widget"
-                                                    data-widget_type="icon-list.default">
-                                                    <div class="elementor-widget-container">
-                                                        <ul class="elementor-icon-list-items elementor-inline-items">
-                                                            <li class="elementor-icon-list-item elementor-inline-item">
-                                                                <span class="elementor-icon-list-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-clock"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M256,8C119,8,8,119,8,256S119,504,256,504,504,393,504,256,393,8,256,8Zm92.49,313h0l-20,25a16,16,0,0,1-22.49,2.5h0l-67-49.72a40,40,0,0,1-15-31.23V112a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V256l58,42.5A16,16,0,0,1,348.49,321Z">
-                                                                        </path>
-                                                                    </svg> </span>
-                                                                <span class="elementor-icon-list-text">2 hours</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div> -->
-                                            </div>
-                                        </div>
+                                       
                                         <div class="elementor-element elementor-element-08ff9ef e-flex e-con-boxed e-con e-child"
                                             data-id="08ff9ef" data-element_type="container">
                                             <div class="e-con-inner">
@@ -16292,7 +16366,7 @@
     align-items: center;
     gap: 10px;
     margin: 10px 0;
-    padding-left: 60px; /* Shifts the entire block slightly to the left */
+    padding-left: 600px; /* Shifts the entire block slightly to the left */
 }
 
 .partner-logo {
@@ -16365,9 +16439,9 @@
                                                 </div>
                                             </div>
                                         </div> -->
-                                        <div class="moving-object">
+                                        <!-- <div class="moving-object">
                                             <img src="/img/hero-img.png" alt="Walking Boy" />
-                                        </div>
+                                        </div> -->
                                         <style>
                                             .moving-object img {
     position: relative; /* Allows for relative positioning */
@@ -16412,7 +16486,7 @@
                         <div class="elementor-element elementor-element-9111c17 elementor-hidden-desktop e-flex e-con-boxed e-con e-parent"
                             data-id="9111c17" data-element_type="container"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="e-con-inner">
+                            <div class="">
                                 <div class="elementor-element elementor-element-3837f07 e-con-full e-flex e-con e-child"
                                     data-id="3837f07" data-element_type="container">
                                     <div class="elementor-element elementor-element-e14a249 e-con-full e-flex e-con e-child"
@@ -16433,13 +16507,54 @@
                                             data-id="a6bd074" data-element_type="widget"
                                             data-widget_type="lqd-text.default">
                                             <div class="elementor-widget-container">
-                                                <h1 class="lqd-text-el m-0 p-0"><span
+                                                <h1 class="lqd-text-els m-0 p-0"><span
                                                         class="lqd-text-item relative elementor-repeater-item-f747451">India’s Most Affordable Marketing <br>and Event Management Company
                                                     </span>
                                                       
                                                 </h1>
                                             </div>
                                         </div>
+
+                                        <style>
+                                            /* Default Heading Styling */
+.lqd-text-els {
+    text-align: center; /* Center-align text */
+    font-size: 1.5rem; /* Default font size for larger screens */
+    line-height: 2.4; /* Adjust line spacing */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Text color */
+    /* margin: 0; */
+    padding: 0;
+    top: 100px;
+    /* margin-bottom: 300px; */
+}
+
+/* Responsive Design for Tablets */
+@media (max-width: 768px) {
+    .lqd-text-els {
+        /* margin-bottom: 300px; */
+        font-size: 2rem; /* Reduce font size for tablets */
+    }
+}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 480px) {
+    .lqd-text-els {
+       top: 50px;
+        font-size: 1.5rem; /* Smaller font size for mobile screens */
+        line-height: 1.3; /* Reduce line spacing */
+    }
+
+    .lqd-text-item {
+        display: block; /* Ensures proper wrapping */
+        word-wrap: break-word; /* Break long words if needed */
+    }
+}
+
+                                        </style>
+
+
+
                                         <div class="elementor-element elementor-element-5e95d23 e-con-full e-flex e-con e-child"
                                             data-id="5e95d23" data-element_type="container">
                                             <div class="elementor-element elementor-element-e5a281c e-con-full e-flex e-con e-child"
@@ -16457,46 +16572,111 @@
                                                         </div>
                                                     </div>
                                                 </div> -->
-                                                <div style="display: flex; justify-content: center; align-items: center;">
+                                                <!-- <div style="display: flex; justify-content: center; align-items: center;">
                                                     <img src="/img/hero-img.png" height="auto" width="50%"  alt="Walking Boy" />
-                                                </div>
+                                                </div> -->
 
 
-                                                <div class="elementor-element elementor-element-af48121 e-con-full e-flex e-con e-child"
-                                                    data-id="af48121" data-element_type="container">
-                                                    <div class="elementor-element elementor-element-df88ee2 e-con-full e-flex e-con e-child"
-                                                        data-id="df88ee2" data-element_type="container">
-                                                        <div class="elementor-element elementor-element-aa82adb elementor-align-left elementor-icon-list--layout-inline elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                            data-id="aa82adb" data-element_type="widget"
-                                                            data-widget_type="icon-list.default">
-                                                            <div class="elementor-widget-container">
-                                                               
-                                                                  
-                                                                        <span class="elementor-icon-list-icon">
-                                                                            <i aria-hidden="true"
-                                                                                class="akar-icons ai-video"></i> </span>
-                                                                        <span class="elementor-icon-list-text">Transform your business in just 100 days with our newly launched </span>
-                                                                
-                                                                    
-                                                            </div>
+                                             <div class="parent-container"> 
+                                                    <div class="horizontal-highlight">
+                                                        <!-- Left Content: 2x (Revenue) -->
+                                                        <div class="highlight-left">
+                                                            <h11 class="highlight-text">
+                                                                2x 
+                                                                <span class="sub-text">(Revenue)</span>
+                                                            </h11>
+                                                        </div>
+                                                    
+                                                        <!-- Right Content: Price -->
+                                                        <div class="highlight-right">
+                                                            <p class="starting-at">Starting at just</p>
+                                                            <p class="price">₹549/-* <span class="per-day">per day</span></p>
                                                         </div>
                                                     </div>
-
-                                                      <div class="elementor-element elementor-element-5127467 elementor-align-left elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                    data-id="5127467" data-element_type="widget"
-                                                    data-widget_type="icon-list.default">
-                                                    <div class="elementor-widget-container">
-                                                        <ul class="elementor-icon-list-items elementor-inline-items">
-                                                            <li class="elementor-icon-list-item elementor-inline-item">
-                                                                <span class="elementor-icon-list-icon">
-                                                                
-                                                                </span>
-                                                                <span class="elementor-icon-list-text"> #100 Days Plan starting at just ₹549/day!
-                                                                </span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
+                                                    
+                                                    <!-- </div> -->
+                                                    
+                                                    <style>
+                                                    /* Main Container */
+                                                    
+                                                    .horizontal-highlight {
+                                                        display: flex;
+                                                        align-items: center;
+                                                        gap: 30px; /* Space between items */
+                                                        background: #f9f9f9; 
+                                                        padding: 20px 50px;
+                                                        border: 3px solid #6984c9; 
+                                                        border-radius: 10px;
+                                                        box-shadow: #6984c9;
+                                                        max-width: 500px;
+                                                        max-height: 150px;
+                                                        margin: 0 auto; 
+                                                    }
+                                                    
+                                                    /* Left Content */
+                                                    .highlight-left {
+                                                        text-align: center;
+                                                        flex: 1; /* Takes available space */
+                                                    }
+                                                    
+                                                    .highlight-text {
+                                                        font-size: 3rem; 
+                                                        font-weight: bold;
+                                                        color: #4562a6; 
+                                                        /* bottom: 200px; */
+                                                        margin: 0;
+                                                    }
+                                                    
+                                                    .sub-text {
+                                                        font-size: 1.5rem;
+                                                        color: black; 
+                                                        margin-top: 5px;
+                                                        margin-top: 10%;
+                                                    }
+                                                    
+                                                    /* Right Content */
+                                                    .highlight-right {
+                                                        text-align: center;
+                                                        flex: 1; 
+                                                        margin-left: 50px; /* Shifts the right side content to the right */
+                                                    }
+                                                    
+                                                    .starting-at {
+                                                        font-size: 1.2rem;
+                                                        color: black;
+                                                        margin: 0;
+                                                        font-weight: 800;
+                                                    }
+                                                    
+                                                    .price {
+                                                        font-size: 2rem;
+                                                        font-weight: bold;
+                                                        color: #4562a6; 
+                                                        margin: 5px 0 0 0;
+                                                    }
+                                                    
+                                                    .per-day {
+                                                        font-size: 1rem;
+                                                        color: black; 
+                                                        display: block;
+                                                        margin-top: 5px;
+                                                    }
+                                                    
+                                                    /* Responsive for Smaller Screens */
+                                                    @media (max-width: 768px) {
+                                                        .horizontal-highlight {
+                                                            flex-direction: column; /* Stack vertically on smaller screens */
+                                                            gap: 1px;
+                                                        }
+                                                        .highlight-right {
+                                                            margin-left: 0; /* Remove margin for smaller screens */
+                                                        }
+                                                        .highlight-text {
+                                                            font-size: 2.5rem;
+                                                        }
+                                                    }
+                                                    </style>
+                                                    
                                                     <!-- <div class="elementor-element elementor-element-a7a245a e-con-full e-flex e-con e-child"
                                                         data-id="a7a245a" data-element_type="container">
                                                         <div class="elementor-element elementor-element-aa05194 elementor-align-left elementor-icon-list--layout-inline elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
@@ -16633,7 +16813,7 @@
     align-items: center;
     gap: 10px;
     margin: 10px 0;
-    padding-left: 60px; /* Shifts the entire block slightly to the left */
+    padding-left: 410px; /* Shifts the entire block slightly to the left */
 }
 
 .partner-logo {
@@ -16869,20 +17049,29 @@
                             </div>
                             <div class="stat-item">
                                 <div class="stat-count" id="industry-experience">0+</div>
-                                <h3>Years of Experience</h3>
+                                <h3>Clients</h3>
                             </div>
                             <div class="stat-item">
                                 <div class="stat-count" id="global-clients">0+</div>
-                                <h3>Global Clients</h3>
+                                <h3>Lakhs Ad Spends</h3>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-count" id="aa">0+</div>
+                                <h3>Millions Views</h3>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-count" id="bb">0+</div>
+                                <h3>Leads</h3>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-count" id="cc">0</div> <!-- Change to % for Conversion -->
+                                <h3>Conversion</h3>
                             </div>
                         </div>
                         <div class="dotted-connection"></div>
                     </div>
-                    
-                    
-                    
 <style>
-  /* General Styles */
+    /* General Styles */
 .stats-section {
     padding: 60px 20px;
     text-align: center;
@@ -16902,9 +17091,9 @@
 
 .stats-container {
     display: flex;
-    justify-content: space-evenly; /* Change from space-between to space-evenly for smaller gaps */
-    gap: 20px; /* Add a smaller gap between boxes */
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: space-evenly; 
+    gap: 20px; 
+    flex-wrap: wrap;
     position: relative;
     z-index: 2;
 }
@@ -16912,13 +17101,14 @@
 .stat-item {
     background-color: #fff;
     color: #333;
-    border-radius: 8px;
+    border-radius: 12px;
     width: 250px;
     padding: 30px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
     border: 1px solid #e0e0e0;
+    position: relative;
 }
 
 .stat-item h3 {
@@ -16935,13 +17125,17 @@
     margin-bottom: 20px;
 }
 
+/* Special styles for Conversion */
+
+
+
 /* Moving Dotted Line */
 .dotted-connection {
     position: absolute;
     top: 50%;
-    left: 19%;
-    width: 55%;
-    height: 2px;
+    right: 1%;
+    width: 85%;
+    height: 7px;
     background: linear-gradient(to right, #4562a6 50%, transparent 50%);
     background-size: 20px 100%;
     animation: move-dots 2s linear infinite;
@@ -16968,21 +17162,16 @@
     .stats-container {
         flex-direction: column;
         align-items: center;
-        gap: 20px; /* Increase gap for vertical spacing */
+        gap: 20px;
     }
 
     .stats-header h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 40px;
-    color: #4562a6;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-}
+        font-size: 1.5rem;
+    }
 
     .dotted-connection {
         width: 2px;
-        height: 60%; /* Extend height for vertical dotted line */
+        height: 60%;
         top: 30%;
         left: 50%;
         background: linear-gradient(to bottom, #4562a6 50%, transparent 50%);
@@ -16992,21 +17181,19 @@
 
 @media (max-width: 480px) {
     .stat-item {
-        width: 90%; /* Expand box width for smaller screens */
+        width: 90%;
     }
 
     .dotted-connection {
-        left: 48%; /* Center line more accurately for small devices */
+        left: 48%;
     }
 }
 
 
-
-</style>          
-
+</style>      
 <script>
- document.addEventListener("DOMContentLoaded", function() {
-    function startCounter(id, start, end, duration) {
+   document.addEventListener("DOMContentLoaded", function() {
+    function startCounter(id, start, end, duration, isPercentage = false) {
         let current = start;
         let range = end - start;
         let stepTime = Math.abs(Math.floor(duration / range));
@@ -17014,7 +17201,11 @@
         
         let interval = setInterval(function() {
             current += 1;
-            element.textContent = current + '+'; // Add '+' dynamically
+            if (isPercentage) {
+                element.textContent = current + '%'; // Only add % here for conversion
+            } else {
+                element.textContent = current + '+'; // Add + for other stats
+            }
             if (current >= end) {
                 clearInterval(interval);
             }
@@ -17022,13 +17213,16 @@
     }
 
     // Start counters when the page loads
-    startCounter('successful-projects', 0, 80, 2000);
-    startCounter('industry-experience', 0, 8, 2000);
-    startCounter('global-clients', 0, 10, 2000);
+    startCounter('successful-projects', 0, 80, 2000); // Successful Projects
+    startCounter('industry-experience', 0, 10, 2000); // Clients
+    startCounter('global-clients', 0, 3, 2000); // Lakhs Ad Spends
+    startCounter('aa', 0, 5, 2000); // Millions Views
+    startCounter('bb', 0, 2500, 2000); // Leads
+    startCounter('cc', 0, 20, 2000, true); // Conversion (with percentage sign)
 });
 
 
-</script>
+</script>              
 
                         <!-- <div class="elementor-element elementor-element-e234c40 e-flex e-con-boxed e-con e-parent"
                             data-id="e234c40" data-element_type="container"
@@ -17335,7 +17529,7 @@
                                     }
                                 
                                     .modern-card p {
-                                        font-size: 0.95rem;
+                                        font-size: 1.95rem;
                                         color: black;
                                         line-height: 1.4;
                                         margin: 5px 0 0;
@@ -17357,10 +17551,13 @@
                                             align-items: center;
                                         }
                                     }
+
+
                                 </style>
                                 <div class="elementor-element elementor-element-cdc7778">
+                                    <h1 class="">What’s in the #100 Days Plan?</h1>
                                     <div class="e-con-inner">
-                                        <h1 class="lqd-text-el" style="text-align: center; margin-bottom: 10px;">What’s in the #100 Days Plan?</h1>
+                                        <!-- <h1 class="lqd-text-els">What’s in the #100 Days Plan?</h1> -->
                                         <p style="text-align: center; margin-bottom: 30px;">In just 100 days, we’ll set up a system that turns searchers into buyers. <br> Here’s how:</p>
                                 
                                         <div class="modern-cards-container">
@@ -17521,7 +17718,7 @@
 
 
         .lqd-text-els h1 {
-            font-size: 100px;
+            font-size: 10px;
         }
 
         .modern-card {
@@ -17556,7 +17753,7 @@
                                         </style>
                                         <div class="elementor-element elementor-element-cdc7778">
                                             <div class="e-con-inner">
-                                                <h1 class="lqd-text-els" style="text-align: center; margin-bottom: 10px; ">What’s in the #100 Days Plan?</h1>
+                                                <h1 class="lqd-text-els" >What’s in the #100 Days Plan?</h1>
                                                 <p style="text-align: center; margin-bottom: 30px;">In just 100 days, we’ll set up a system that turns searchers into buyers. <br> Here’s how:</p>
                                         
                                                 <div class="modern-cards-container">
@@ -17620,7 +17817,7 @@
                                     </div>              </div>
 
 
-                                </section>
+                          
                                 <div class="elementor-element elementor-element-fe65bb4 e-flex e-con-boxed e-con e-child"
                                 data-id="fe65bb4" data-element_type="container">
                                 <div class="e-con-inner">
@@ -17896,7 +18093,7 @@
                                 align-items: center;
                                 margin-bottom: 30px;
                                 padding: 30px;
-                                background-color: rgba(151, 175, 235, 0.3); /* Semi-transparent background */
+                                background-color: rgba(151, 175, 235, 0.9); /* Semi-transparent background */
                                 border-radius: 8px;
                                 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
                                 transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for zoom and bg change */
@@ -18057,64 +18254,204 @@
 <section class="client-logo-section">
     <h2 class="section-titles">Featured In
     </h2>
-    <div class="logo-sliders">
-        <div class="logo-track">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-49-51.png" alt="Client 1" class="client-logo">
-            <!-- <img src="/img/2.png" alt="Client 2" class="client-logo"> -->
-            <!-- <img src="/img/3.png" alt="Client 3" class="client-logo">? -->
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-50-09.png" alt="Client 4" class="client-logo">
-            
-            <!-- Duplicate logos for seamless animation -->
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-50-29.png" alt="Client 1" class="client-logo">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-50-46.png" alt="Client 2" class="client-logo">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-50-58.png" alt="Client 3" class="client-logo">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-51-07.png" alt="Client 4" class="client-logo">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-51-24.png" alt="Client 1" class="client-logo">
-            <!-- <img src="/img/2.png" alt="Client 2" class="client-logo"> -->
-            <!-- <img src="/img/3.png" alt="Client 3" class="client-logo"> -->
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-51-44.png" alt="Client 4" class="client-logo">
-            
-            <!-- Duplicate logos for seamless animation -->
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-52-08.png" alt="Client 1" class="client-logo">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-49-51.png" alt="Client 1" class="client-logo">
-            <!-- <img src="/img/2.png" alt="Client 2" class="client-logo"> -->
-            <!-- <img src="/img/3.png" alt="Client 3" class="client-logo">? -->
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-50-09.png" alt="Client 4" class="client-logo">
-            
-            <!-- Duplicate logos for seamless animation -->
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-50-29.png" alt="Client 1" class="client-logo">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-50-46.png" alt="Client 2" class="client-logo">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-50-58.png" alt="Client 3" class="client-logo">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-51-07.png" alt="Client 4" class="client-logo">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-51-24.png" alt="Client 1" class="client-logo">
-            <!-- <img src="/img/2.png" alt="Client 2" class="client-logo"> -->
-            <!-- <img src="/img/3.png" alt="Client 3" class="client-logo"> -->
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-51-44.png" alt="Client 4" class="client-logo">
-            
-            <!-- Duplicate logos for seamless animation -->
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-52-08.png" alt="Client 1" class="client-logo">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-49-51.png" alt="Client 1" class="client-logo">
-            <!-- <img src="/img/2.png" alt="Client 2" class="client-logo"> -->
-            <!-- <img src="/img/3.png" alt="Client 3" class="client-logo">? -->
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-50-09.png" alt="Client 4" class="client-logo">
-            
-            <!-- Duplicate logos for seamless animation -->
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-50-29.png" alt="Client 1" class="client-logo">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-50-46.png" alt="Client 2" class="client-logo">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-50-58.png" alt="Client 3" class="client-logo">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-51-07.png" alt="Client 4" class="client-logo">
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-51-24.png" alt="Client 1" class="client-logo">
-            <!-- <img src="/img/2.png" alt="Client 2" class="client-logo"> -->
-            <!-- <img src="/img/3.png" alt="Client 3" class="client-logo"> -->
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-51-44.png" alt="Client 4" class="client-logo">
-            
-            <!-- Duplicate logos for seamless animation -->
-            <img src="/100DaysPlan/img/jhj/Screenshot from 2024-11-28 08-52-08.png" alt="Client 1" class="client-logo">
+    <div class="our-clients-container">
+
+        <div class="clients-logos">
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-52-08-removebg-preview.png" alt="Client 1">
+            </div>
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-51-44-removebg-preview.png" alt="Client 2">
+            </div>
+            <!-- <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-51-07-removebg-preview.png" alt="Client 3">
+            </div> -->
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-58-removebg-preview.png" alt="Client 4">
+            </div>
+            <!-- <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-46-removebg-preview.png" alt="Client 5">
+            </div> -->
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-29-removebg-preview.png" alt="Client 6">
+            </div>
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-49-51-removebg-preview.png" alt="Client 7">
+            </div>
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-09-removebg-preview.png" alt="Client 8">
+            </div>
+    
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-52-08-removebg-preview.png" alt="Client 1">
+            </div>
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-51-44-removebg-preview.png" alt="Client 2">
+            </div>
+            <!-- <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-51-07-removebg-preview.png" alt="Client 3">
+            </div> -->
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-58-removebg-preview.png" alt="Client 4">
+            </div>
+            <!-- <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-46-removebg-preview.png" alt="Client 5">
+            </div> -->
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-29-removebg-preview.png" alt="Client 6">
+            </div>
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-49-51-removebg-preview.png" alt="Client 7">
+            </div>
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-09-removebg-preview.png" alt="Client 8">
+            </div>
+    
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-52-08-removebg-preview.png" alt="Client 1">
+            </div>
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-51-44-removebg-preview.png" alt="Client 2">
+            </div>
+            <!-- <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-51-07-removebg-preview.png" alt="Client 3">
+            </div> -->
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-58-removebg-preview.png" alt="Client 4">
+            </div>
+            <!-- <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-46-removebg-preview.png" alt="Client 5">
+            </div> -->
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-29-removebg-preview.png" alt="Client 6">
+            </div>
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-49-51-removebg-preview.png" alt="Client 7">
+            </div>
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-09-removebg-preview.png" alt="Client 8">
+            </div>
+    
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-52-08-removebg-preview.png" alt="Client 1">
+            </div>
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-51-44-removebg-preview.png" alt="Client 2">
+            </div>
+            <!-- <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-51-07-removebg-preview.png" alt="Client 3">
+            </div> -->
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-58-removebg-preview.png" alt="Client 4">
+            </div>
+            <!-- <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-46-removebg-preview.png" alt="Client 5">
+            </div> -->
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-29-removebg-preview.png" alt="Client 6">
+            </div>
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-49-51-removebg-preview.png" alt="Client 7">
+            </div>
+            <div class="client-logo">
+                <img src="/img/Untitled design (2)/Screenshot_from_2024-11-28_08-50-09-removebg-preview.png" alt="Client 8">
+            </div>
+    
+            <!-- Duplicate the logos to create a seamless loop -->
           
-            
         </div>
     </div>
-</section>
+    
+    
+    <style>
+       /* Container for the "Our Clients" section */
+    .our-clients-container {
+        text-align: center; /* Center-align the title */
+        padding: 50px 20px; /* Add some padding around the section */
+        background-color: #ffffff; /* Light background for the section */
+        overflow: hidden; /* Hide any overflow content */
+    }
+    
+    /* Styling for the Title */
+    .clients-title h2 {
+        font-family: 'Babas Neue', 'sans-serif';
+        font-size: 52px; /* Adjust font size for the title */
+        font-weight: bold;
+        color: #000000;
+    }
+    
+    .clients-title h2 span {
+        font-family: 'Babas Neue', 'sans-serif';
+        /* font-size: 52px;  */
+        color: #00FFFF; /* Blue color for the "Clients" part */
+    }
+    
+    /* Container for the Client Logos */
+    .clients-logos {
+        display: flex;
+        align-items: center; /* Vertically align logos */
+        gap: 30px; /* Space between logos */
+        animation: scrollLeft 30s linear infinite; /* Scroll animation */
+        flex-wrap: nowrap; /* Prevent wrapping */
+    }
+    
+    /* Individual Client Logo Styling */
+    .client-logo {
+        width: auto; /* Allow the width to adjust based on image size */
+        height: auto; /* Maintain aspect ratio */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+        flex-shrink: 0; /* Prevent the logo from shrinking */
+    }
+    
+    .client-logo img {
+        width: 100%; /* Make the image fill the container */
+        max-width: 160px; /* Limit the maximum width of each image */
+        height: auto; /* Maintain the aspect ratio */
+        object-fit: contain; /* Ensure the image fits within its container */
+    }
+    
+    /* Hover Effects for Client Logos */
+    .client-logo:hover {
+        transform: scale(1.1); /* Slightly enlarge the logo on hover */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    }
+    
+    /* Animation for Continuous Scrolling */
+    @keyframes scrollLeft {
+        0% {
+            transform: translateX(0); /* Start from the left */
+        }
+        100% {
+            transform: translateX(-100%); /* Move to the left until it’s out of view */
+        }
+    }
+    
+    /* Responsive Styling */
+    @media (max-width: 768px) {
+        .clients-title h2 {
+            font-size: 28px; /* Smaller font size for tablets */
+        }
+    
+        .client-logo img {
+            max-width: 120px; /* Adjust logo size for tablets */
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .clients-title h2 {
+            font-size: 24px; /* Smaller font size for mobile */
+        }
+    
+        .client-logo img {
+            max-width: 100px; /* Adjust logo size for mobile */
+        }
+    }
+    
+    </style>
+    
+
+    </div>
+
 
 <style>
 /* General Styles */
@@ -18792,6 +19129,7 @@ footer {
 </style>
 
   </div>
+</section>
 
 
 
